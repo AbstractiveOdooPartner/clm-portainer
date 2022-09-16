@@ -5,14 +5,15 @@
             "type": 3,
             "title": "Odooo/Postgres for CLM Non Profits",
             "description": "Odooo/Postgres for CLM Non Profits",
+            "note": "hello",
             "categories": [
-                "database"
+                "CMS"
             ],
             "platform": "linux",
             "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/odoo.png",
             "repository": {
                 "url": "https://github.com/AbstractiveOdooPartner/clm-portainer",
-                "stackfile": "stacks/clm/docker-stack.yaml"
+                "stackfile": "stacks/clm/docker-compose.yml"
             },
             "env": [
                 {
