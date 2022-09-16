@@ -12,7 +12,7 @@ services:
     networks:
       - db
   odoo:
-    build: ./build/odoo
+    image: elicocorp/odoo:15.0
     container_name: "${SUBDOMAIN}_odoo"
     command: start
     links:

@@ -1,0 +1,2 @@
+https://github.com/odoo/design-themes.git 15.0
+https://github.com/AbstractiveOdooPartner/clm-open.git master
