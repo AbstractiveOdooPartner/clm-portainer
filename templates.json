@@ -3,8 +3,8 @@
     "templates": [
         {
             "type": 2,
-            "title": "Odooo & Postgres for CLM Non Profits",
-            "description": "Odooo & Postgres for CLM Non Profits",
+            "title": "Odooo/Postgres for CLM Non Profits",
+            "description": "Odooo/Postgres for CLM Non Profits",
             "categories": [
                 "database"
             ],
