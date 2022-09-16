@@ -1,34 +1,37 @@
-[
-    {
-        "type": 2,
-        "title": "Odooo/Postgres for CLM Non Profits",
-        "description": "Odooo/Postgres for CLM Non Profits",
-        "categories": [
-            "database"
-        ],
-        "platform": "linux",
-        "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/odoo.png",
-        "repository": {
-            "url": "https://github.com/AbstractiveOdooPartner/clm-portainer",
-            "stackfile": "stacks/clm/docker-stack.yaml"
-        },
-        "env": [
-            {
-                "name": "DB_PASSWORD",
-                "label": "Password for the postgresql super user"
+{
+    "version": 2,
+    "templates": [
+        {
+            "type": 3,
+            "title": "Odooo/Postgres for CLM Non Profits",
+            "description": "Odooo/Postgres for CLM Non Profits",
+            "categories": [
+                "database"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/odoo.png",
+            "repository": {
+                "url": "https://github.com/AbstractiveOdooPartner/clm-portainer",
+                "stackfile": "stacks/clm/docker-stack.yaml"
             },
-            {
-                "name": "SUBDOMAIN",
-                "label": "Subdomain: <value>.odoo.digitalevzw.be"
-            },
-            {
-                "name": "ODOO_ADMIN_PASSWD",
-                "label": "Password for the odoo database admin"
-            },
-            {
-                "name": "DB_PASSWORD",
-                "label": "Password for the odoo database user (has to be configured in postgres afterwards, user: odoo, password: <value>)"
-            }
-        ]
-    }
-]
+            "env": [
+                {
+                    "name": "DB_PASSWORD",
+                    "label": "Password for the postgresql super user"
+                },
+                {
+                    "name": "SUBDOMAIN",
+                    "label": "Subdomain: <value>.odoo.digitalevzw.be"
+                },
+                {
+                    "name": "ODOO_ADMIN_PASSWD",
+                    "label": "Password for the odoo database admin"
+                },
+                {
+                    "name": "DB_PASSWORD",
+                    "label": "Password for the odoo database user (has to be configured in postgres afterwards, user: odoo, password: <value>)"
+                }
+            ]
+        }
+    ]
+}
