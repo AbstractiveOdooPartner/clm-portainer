@@ -3,8 +3,8 @@
     "templates": [
         {
             "type": 3,
-            "title": "Odooo/Postgres for CLM Non Profits",
-            "description": "Odooo/Postgres for CLM Non Profits",
+            "title": "Odoo/Postgres for CLM Non Profits",
+            "description": "Odoo/Postgres for CLM Non Profits",
             "note": "Via deze weg kan je eenvoudig een omgeving opzetten.",
             "categories": [
                 "CMS"
