@@ -5,7 +5,7 @@
             "type": 3,
             "title": "Odooo/Postgres for CLM Non Profits",
             "description": "Odooo/Postgres for CLM Non Profits",
-            "note": "hello",
+            "note": "Via deze weg kan je eenvoudig een omgeving opzetten.",
             "categories": [
                 "CMS"
             ],
@@ -18,19 +18,19 @@
             "env": [
                 {
                     "name": "DB_PASSWORD",
-                    "label": "Password for the postgresql super user"
+                    "label": "Wachtwoord voor de databankgebruiker"
                 },
                 {
                     "name": "SUBDOMAIN",
-                    "label": "Subdomain: <value>.odoo.digitalevzw.be"
+                    "label": "Subdomein: <waarde>.odoo.digitalevzw.be"
                 },
                 {
                     "name": "ODOO_ADMIN_PASSWD",
-                    "label": "Password for the odoo database admin"
+                    "label": "Wachtwoord voor de databankmanager van Odoo"
                 },
                 {
                     "name": "DB_PASSWORD",
-                    "label": "Password for the odoo database user (has to be configured in postgres afterwards, user: odoo, password: <value>)"
+                    "label": "Wachtwoord voor de 'odoo' gebruiker in postgres. Deze gebruiker moet manueel aangemaakt worden."
                 }
             ]
         }
